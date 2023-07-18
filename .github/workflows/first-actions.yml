@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: srlf-hosted
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
